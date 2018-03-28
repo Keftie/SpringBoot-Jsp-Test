@@ -1,6 +1,8 @@
 <html>
     <head>
         <title>Welcome</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/custom.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="container">
@@ -21,13 +23,14 @@
                         <td>10/12/2017</td>
                         <td>No</td>
                         <td><a class="btn btn-warning" href="/edit-todo">Edit Todo</a></td>
-                        <td><a class="btn btn-warning" href="/delete-todo">Delete Todo</a></td>
+                        <td><a class="btn btn-danger" href="/delete-todo">Delete Todo</a></td>
                     </tr>
                 </tbody>
             </table>
             <div>
                 <a class="btn btn-default" href="/add-todo">Add a Todo</a>
             </div>
+            <script src="js/custom.js"></script>
         </div>
     </body>
 </html>
